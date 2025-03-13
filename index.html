@@ -1,14 +1,65 @@
 <!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AiryDays</title>
-  <link rel="stylesheet" href="css/mystyle.css">
-</head>
-<body>
-  <div class="container">
-    <h1>Welcome</h1>
-  </div>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RIYA HOUSE</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="language-selector">
+        <button onclick="changeLanguage('en')" class="lang-btn">English</button>
+        <button onclick="changeLanguage('es')" class="lang-btn">Español</button>
+        <button onclick="changeLanguage('ko')" class="lang-btn">한국어</button>
+        <button onclick="changeLanguage('ja')" class="lang-btn">日本語</button>
+      </div>
+
+      <header>
+        <h1>RIYA HOUSE</h1>
+      </header>
+
+      <main>
+        <section class="social-links">
+          <a href="https://x.com/DaysAiry6618" target="_blank" class="x-link">
+            <img src="https://pbs.twimg.com/profile_images/1887646894182309889/mZrs3a1y_400x400.jpg" alt="X (Twitter) Logo" class="x-logo" />
+            <span data-en="Follow me on X"
+                  data-es="Sígueme en X"
+                  data-ko="X에서 팔로우하기"
+                  data-ja="Follow me on X">Follow me on X</span>
+          </a>
+        </section>
+
+        <section class="apps">
+          <h2 data-en="My Applications"
+              data-es="Mis Aplicaciones"
+              data-ko="내 애플리케이션"
+              data-ja="アプリ一覧">My Applications</h2>
+          <div class="app-grid">
+            <div class="app-card">
+              <img src="https://play-lh.googleusercontent.com/z_m5nl-aVNBKqEuS9FpxGsfLSMbfGIXsEo0uyW_PKyjNKza1zvmD0sTGVkuH-pE47pSO=w240-h480-rw" alt="Google Play Logo" class="app-logo" />
+              <h3>うんぴっ(UNPI)</h3>
+              <p data-en="Play with just one finger! A simple and exciting tap game!"
+                 data-es="¡Juega con un solo dedo! ¡Un juego de toques simple y emocionante!"
+                 data-ko="손가락 하나로 플레이! 간단하고 시원한 탭 게임!"
+                 data-ja="指一本で遊べる！カンタン爽快タップゲーム！"></p>
+              <a href="https://play.google.com/store/apps/details?id=com.airydays.games.unpi" target="_blank" class="app-link">
+                <span data-en="View on Google Play"
+                      data-es="Ver en Google Play"
+                      data-ko="Google Play에서 보기"
+                      data-ja="Google Playで見る">Google Playで見る</span>
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <p>
+          <span>© 2025 riyaginger.</span>
+        </p>
+      </footer>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
 </html>
