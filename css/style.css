@@ -78,11 +78,10 @@ section {
 .x-link {
   display: inline-flex;
   align-items: center;
-  padding: 0.8rem 1.5rem;
   background-color: #000000;
   color: #ffffff;
   text-decoration: none;
-  border-radius: 30px;
+  border-radius: 10px;
   transition: opacity 0.3s;
 }
 
@@ -93,8 +92,6 @@ section {
 .x-logo {
   width: 24px;
   height: 24px;
-  margin-right: 0.5rem;
-  border-radius: 10px;
 }
 
 .app-grid {
